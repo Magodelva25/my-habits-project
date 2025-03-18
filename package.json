@@ -88,6 +88,7 @@
 		"install": "^0.13.0",
 		"npm": "^11.0.0",
 		"prop-types": "^15.6.1",
+		"psycopg2-binary": "^0.0.1",
 		"react": "19.0.0",
 		"react-dom": "19.0.0",
 		"react-modal": "^3.16.3",
