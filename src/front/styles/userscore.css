@@ -83,5 +83,7 @@ h5 {
 
 
 .current_user{
-  border:1px solid #fb7676;
+
+  filter: drop-shadow(0px 10px 0px #fb7676);
+
 }
