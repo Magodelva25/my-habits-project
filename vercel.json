@@ -1,0 +1,7 @@
+{
+    "build": {
+      "env": {
+        "PG_CONFIG": "/path/to/pg_config"
+      }
+    }
+  }
