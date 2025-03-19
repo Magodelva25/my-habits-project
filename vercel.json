@@ -1,7 +1,7 @@
 {
-    "build": {
-      "env": {
-        "PG_CONFIG": "/path/to/pg_config"
-      }
+  "build": {
+    "env": {
+      "PIP_NO_BINARY": "psycopg2"
     }
   }
+}
