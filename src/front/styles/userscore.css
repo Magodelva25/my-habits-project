@@ -84,5 +84,6 @@ h5 {
 .current_user{
 
  border: 3px solid #FB7676;
+ border-radius: 15px;
 
 }
