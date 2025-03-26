@@ -22,6 +22,17 @@ const Layout = () => {
 
     if(!process.env.BACKEND_URL || process.env.BACKEND_URL == "") return <BackendURL/ >;
 
+    useEffect(() => {
+        const getItem = localStorage.getItem("selectedTheme") || "light"; // Por defecto a "light"
+        if (getItem === "dark") {
+          document.documentElement.setAttribute('data-theme', 'dark');
+          setDarkMode(true);
+        } else {
+          document.documentElement.setAttribute('data-theme', 'light');
+          setDarkMode(false);
+        }
+      }, []);
+
     return (
         <div className="main-container">
             <BrowserRouter basename={basename}>
