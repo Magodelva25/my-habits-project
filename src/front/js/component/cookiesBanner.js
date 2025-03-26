@@ -42,7 +42,7 @@ export const CookiesBanner = () => {
         </button>
         <a
           className="enlace"
-          href="https://mango-portfolio-9tvc.onrender.com/policy"
+          href=""
         >
           Aviso de Cookies
         </a>

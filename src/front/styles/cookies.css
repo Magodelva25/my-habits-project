@@ -1,7 +1,7 @@
 
 .aviso-cookies {
 	display: none;
-	background: var(--background-color);
+	background: white;
 	padding: 20px;
 	width: calc(100% - 40px);
 	max-width: 250px;
@@ -12,7 +12,7 @@
 	z-index: 100;
 	padding-top: 40px;
 	text-align: center;
-  border: 0.5px solid var(--border-main-color);
+    border: 0.5px solid #FB7676;
 
 }
 
@@ -35,13 +35,14 @@
 .aviso-cookies .titulo,
 .aviso-cookies .parrafo {
 	margin-bottom: 15px;
+    color: #2c2c2c;
 }
 
 .cookies-cta {
 	width: 100%;
-	background: var(--button-icon-color);
-	border: 0.5px solid var(--border-main-color);
-	color: var(--text-default-color);
+	background: #FB7676;
+	border: 0.5px solid #FB7676;
+	color: white;
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	padding: 15px 20px;
