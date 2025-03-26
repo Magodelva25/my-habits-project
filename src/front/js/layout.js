@@ -10,6 +10,8 @@ import { Welcome } from "./Views/Welcome.js";
 import { Ranking } from "./Views/Ranking.js";
 import { UserProfile } from "./Views/User_Profile.js";
 import { NotFound } from "./Views/404.js";
+import { CookiesBanner } from "./component/cookiesBanner.js"
+
 import "../styles/index.css"
 
 //create your first component
@@ -32,6 +34,7 @@ const Layout = () => {
                         <Route element={<NotFound />} path="/404" />
                     </Routes>
                     <Footer />
+                    <CookiesBanner/>
             </BrowserRouter>
         </div>
     );
